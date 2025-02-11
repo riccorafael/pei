@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fa; /* Fundo claro */
+    color: #333; /* Texto escuro */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h1 {
+    text-align: center;
+    color: #1a73e8; /* Azul moderno */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+form label {
+    font-weight: bold;
+    color: #555;
+}
+
+form input,
+form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #1a73e8; /* Azul moderno ao focar */
+    outline: none;
+}
+
+form button {
+    padding: 10px;
+    background-color: #1a73e8; /* Azul moderno */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #155bb5; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Linha clara entre as linhas */
+}
+
+table th {
+    background-color: #1a73e8; /* Cabeçalho azul */
+    color: #fff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9fbfd; /* Fundo alternado para linhas pares */
+}
+
+table tr:hover {
+    background-color: #e9f0f7; /* Destaque ao passar o mouse */
+}
+
+table button {
+    padding: 5px 10px;
+    background-color: #e01e5a; /* Vermelho moderno */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+table button:hover {
+    background-color: #c21a4d; /* Vermelho mais escuro ao passar o mouse */
+}
